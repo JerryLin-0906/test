@@ -1,0 +1,157 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}
+
+.desktop{
+    height:540px;
+    width: 360px;
+    background-image: url(IMG_20200320_160635.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 406.59px 542.12px;
+    margin: auto
+    display: block;
+}
+
+.img {width: 50px;
+    height: 50px;
+    /*background-image: url(../img/01.jpg)
+    background-size: cover;*/
+    position: relative;
+    border-radius:25%;
+    background-position-x: -25px;
+    /*margin: calc((100vh - 75px) / 2) auto;*/
+}
+.shell{
+    height: 660px;
+    width: 384px;
+    background:black;
+    display: block;
+    background-position: center;
+    margin: auto;
+    border-radius:60px;
+}
+.block025{
+    height: 25px;
+    width: 384px;
+    background-position: center;
+    margin: auto;
+}
+.block038{
+    height: 38px;
+    width: 360px;
+    background-position: center;
+    margin: auto;
+    background:black;
+    /*opacity: 0.5;*/
+}
+.block020{
+    height: 20px;
+    width: 360px;
+    background-position: center;
+    margin: auto;
+}
+/*.block007{
+    height: px;
+    width: 384px;
+    background-position: center;
+    margin: auto;
+}*/
+.beat_line{
+    height: 2px;
+    width: 384px;
+    background-position: center;
+    margin: auto;
+}
+.beat{
+    height: 5px;
+    width: calc(384px/5);
+    background-position: center;
+    background:grey;
+    margin: auto;
+    border-radius:2px;
+}
+.static_line{
+    background:whitesmoke;
+    margin: auto;
+    opacity: 0.5;
+}
+.approw{
+    height: 50px;
+    width: 360px;
+}
+
+.apps {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    /*background-image: url(bbc.png);*/
+    display: inline-block;
+    background-size: 60px;
+    background-position: center;
+    z-index: -1;
+    /*background-repeat: no-repeat;*/
+}
+.app1{
+    margin-left: 20px;
+    margin-right: 0px;
+}
+.app2{
+    margin-left: 35px;
+    margin-right: 0px;
+}
+.app3{
+    margin-left: 35px;
+    margin-right: 0px;
+}
+.app4{
+    margin-left: 35px;
+    margin-right: 0px;
+}
+.apps:hover{
+    background-color: #999999;
+    opacity: 0.5;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: 60px;
+    background-position: center;
+}
+
+.namesrow30{
+    height: 30px;
+    width: 360px;
+    color: #f7f7f7;
+    margin-top: 5px;
+    font-family: "Courier New", Courier, mono;
+    font-size: small;
+}
+.namesrow15{
+    height: 15px;
+    width: 360px;
+    color: #f7f7f7;
+    margin-top: 5px;
+    font-family: "Courier New", Courier, mono;
+    font-size: small;
+}
+
+.homebutton {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: 60px;
+    background-position: center;
+}
+.homebutton:hover {
+    cursor: grab;
+}
+.homebutton:active {
+    cursor: grabbing;
+}
